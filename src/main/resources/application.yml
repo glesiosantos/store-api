@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev
+flyway:
+  enable: true
+  location: classpath:db/migration

@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/stores_db
+    username: postgres
+    password: 102030
+#   sql:
+#     init:
+#       mode: always
