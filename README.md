@@ -1,1 +1,1 @@
-# Store API
+# Multistore API
