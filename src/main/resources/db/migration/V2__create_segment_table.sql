@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS segments(
+  id VARCHAR(150) PRIMARY KEY DEFAULT REPLACE(uuid_generate_v4()::TEXT,'-',''),
+  name VARCHAR(150) NOT NULL UNIQUE
+);
